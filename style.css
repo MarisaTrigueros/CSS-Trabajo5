@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 150px;
+}
+
+.containers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+
+}
+
+.yellow{
+    order: 1;
+    background-color: rgb(255,255,0,0.3);
+    width: 100px;
+    height: 350px;
+    padding: 2%;
+    margin: 2%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow > p {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin: 3vh;
+
+}
+
+.yellow > .numbers {
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100px;
+}
+
+.yellow > .numbers > li{
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    display: grid;
+    width: 40%;
+    height: 40px; 
+}
+
+.red{
+    order:2;
+    background-color: rgba(255, 0, 0, 0.3);
+    width: 100px;
+    height: 350px;
+    padding: 2%;
+    margin: 2%;
+    flex-direction: column; 
+ 
+}
+
+.red > p{
+
+    align-items: flex-start;
+    justify-content: left;
+    align-self: flex-start;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: 3vh;
+}
+
+.red > .letters{
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100px;
+}
+
+.red > .letters > li{
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    display: grid;
+    width: 40%;
+    height: 40px;
+
+
+}
+
+.green{
+    order: 3;
+    background-color: rgb(39, 246, 111,0.3);
+    width: 70px;
+    height: 350px;
+    padding: 2%;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.green > p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3vh 3vw;
+
+}
+
+.orange{
+    order:4;
+    background-color: rgb(255, 162, 0,0.3);
+    width: 600px;
+    height: 350px;
+    padding: 2%;
+    margin: 2%;
+}
+
+.orange > p{
+    justify-content: flex-start;
+    display: flex;
+    align-self: flex-start;
+    margin: 3vh 2vw;
+}
+
+.blue{
+    order:5;
+    background-color: rgba(34, 160, 250, 0.3);
+    width: 50px;
+    height: 350px;
+    padding: 2%;
+    margin: 2%;
+    border-right: 1px rgba(19, 75, 114, 0.3) solid;
+}
+
+.blue > p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3vh;
+}
+
+
+
